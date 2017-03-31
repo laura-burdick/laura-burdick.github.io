@@ -15,6 +15,47 @@ fa-linkedin:before {
     background-image:url("images/linkedin.png");
 }
 
+/* Header & Navigation */
+
+#top {
+}
+
+#body {
+    clear: both;
+}
+
+#left {
+    float: left;
+    width: 20%;
+}
+
+#right {
+    float: right;
+    text-align: left;
+    width: 80%;
+    margin-top: 4%;
+}
+
+ul.icons {
+    margin-top: -20px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+a.research {
+    margin-right: 20px;
+}
+
+.navH0 {
+    margin-bottom: 5px;
+}
+
+.navH {
+    margin-top: -10px;
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
