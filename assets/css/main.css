@@ -50,10 +50,16 @@ a.research {
 
 .navH0 {
     margin-bottom: 5px;
+    border-top: 1px solid #000000;
 }
 
 .navH {
     margin-top: -10px;
+    border-top: 1px solid #000000;
+}
+
+.myHR {
+    border-top: 1px solid #000000;
 }
 
 /* Reset */
@@ -1457,8 +1463,7 @@ a.research {
 	}
 
 	body {
-		background-color: #000;
-		background-image: url("../../images/bg.jpg");
+		background-color: #e6ffe6;
 		background-size: cover;
 		background-position: top center;
 	}
@@ -1477,7 +1482,7 @@ a.research {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.65);
+		color: rgba(0,0,0, 0.65);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 200;
@@ -1495,7 +1500,7 @@ a.research {
 	a {
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		border-bottom: dotted 1px rgba(0,0,0, 0.35);
 		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1503,12 +1508,12 @@ a.research {
 	}
 
 		a:hover {
-			color: #ffffff;
+			color: #000000;
 			border-bottom-color: transparent;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #000000;
 		font-weight: 200;
 	}
 
@@ -1521,7 +1526,7 @@ a.research {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 		font-weight: 200;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1607,16 +1612,16 @@ a.research {
 	}
 
 	blockquote {
-		border-left: solid 4px rgba(255, 255, 255, 0.25);
+		border-left: solid 4px rgba(0, 0, 0, 0.25);
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.075);
+		background: rgba(0, 0, 0, 0.075);
 		border-radius: 4px;
-		border: solid 1px rgba(255, 255, 255, 0.25);
+		border: solid 1px rgba(0, 0, 0, 0.25);
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1639,7 +1644,7 @@ a.research {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+		border-bottom: solid 1px rgba(0, 0, 0, 0.25);
 		margin: 2em 0;
 	}
 
@@ -1666,7 +1671,7 @@ a.research {
 	}
 
 	header p {
-		color: rgba(255, 255, 255);
+		color: rgba(0, 0, 0);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1695,7 +1700,7 @@ a.research {
 	}
 
 	label {
-		color: #ffffff;
+		color: #000000;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 200;
@@ -1712,10 +1717,10 @@ a.research {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.075);
+		background: rgba(0, 0, 0, 0.075);
 		border-radius: 4px;
 		border: none;
-		border: solid 1px rgba(255, 255, 255, 0.25);
+		border: solid 1px rgba(0, 0, 0, 0.25);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1760,7 +1765,7 @@ a.research {
 		}
 
 		.select-wrapper:before {
-			color: rgba(255, 255, 255, 0.25);
+			color: rgba(0, 0, 0, 0.25);
 			display: block;
 			height: 2.75em;
 			line-height: 2.75em;
@@ -1804,7 +1809,7 @@ a.research {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: rgba(255, 255, 255, 0.65);
+			color: rgba(0, 0, 0, 0.65);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1826,9 +1831,9 @@ a.research {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: rgba(255, 255, 255, 0.075);
+				background: rgba(0, 0, 0, 0.075);
 				border-radius: 4px;
-				border: solid 1px rgba(255, 255, 255, 0.25);
+				border: solid 1px rgba(0, 0, 0, 0.25);
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -1844,7 +1849,7 @@ a.research {
 		input[type="radio"]:checked + label:before {
 			background: #FF6382;
 			border-color: #FF6382;
-			color: #ffffff;
+			color: #000000;
 			content: '\f00c';
 		}
 
@@ -1863,27 +1868,27 @@ a.research {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35) !important;
 		opacity: 1.0;
 	}
 
@@ -1891,7 +1896,7 @@ a.research {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px rgba(255, 255, 255, 0.25);
+		border: solid 1px rgba(0, 0, 0, 0.25);
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -1943,8 +1948,8 @@ a.research {
 			border-radius: 100%;
 			display: inline-block;
 			padding: 0.5em;
-			border: solid 1px rgba(255, 255, 255, 0.25);
-			background-color: rgba(255, 255, 255, 0.075);
+			border: solid 1px rgba(0, 0, 0, 0.25);
+			background-color: rgba(0, 0, 0, 0.075);
 		}
 
 			.icon.style2:before {
@@ -1956,7 +1961,7 @@ a.research {
 			}
 
 			.icon.style2:hover {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(0, 0, 0, 0.25);
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2049,7 +2054,7 @@ a.research {
 		}
 
 			ul.alt li {
-				border-top: solid 1px rgba(255, 255, 255, 0.25);
+				border-top: solid 1px rgba(0, 0, 0, 0.25);
 				padding: 0.5em 0;
 			}
 
@@ -2203,13 +2208,13 @@ a.research {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(255, 255, 255, 0.25);
+			border: solid 1px rgba(0, 0, 0, 0.25);
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(0, 0, 0, 0.075);
 			}
 
 		table td {
@@ -2217,7 +2222,7 @@ a.research {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #000000;
 			font-size: 0.9em;
 			font-weight: 200;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2225,11 +2230,11 @@ a.research {
 		}
 
 		table thead {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+			border-bottom: solid 2px rgba(0, 0, 0, 0.25);
 		}
 
 		table tfoot {
-			border-top: solid 2px rgba(255, 255, 255, 0.25);
+			border-top: solid 2px rgba(0, 0, 0, 0.25);
 		}
 
 		table.alt {
@@ -2237,7 +2242,7 @@ a.research {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(255, 255, 255, 0.25);
+				border: solid 1px rgba(0, 0, 0, 0.25);
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2352,8 +2357,8 @@ a.research {
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+			color: #000000 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2361,7 +2366,7 @@ a.research {
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(0, 0, 0, 0.075);
 			}
 
 			input[type="submit"].alt:active,
@@ -2377,7 +2382,7 @@ a.research {
 			input[type="button"].alt.icon:before,
 			button.alt.icon:before,
 			.button.alt.icon:before {
-				color: rgba(255, 255, 255, 0.35);
+				color: rgba(0, 0, 0, 0.35);
 			}
 
 		input[type="submit"].special,
@@ -2414,7 +2419,7 @@ a.research {
 		button:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: rgba(255, 255, 255, 0.65) !important;
+			background-color: rgba(0, 0, 0, 0.65) !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: #000 !important;
 			cursor: default;
@@ -2459,8 +2464,8 @@ a.research {
 			margin: 0 0 2em 0;
 			text-align: center;
 			border-radius: 4px;
-			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
-			background-color: rgba(255, 255, 255, 0.075);
+			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+			background-color: rgba(0, 0, 0, 0.075);
 			cursor: pointer;
 			outline: 0;
 			overflow: hidden;
@@ -2478,8 +2483,8 @@ a.research {
 			}
 
 			.thumbnails a:hover {
-				background-color: rgba(255, 255, 255, 0.25);
-				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+				background-color: rgba(0, 0, 0, 0.25);
+				box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25), 0 0 0.5em 0 #FF6382;
 			}
 
 		.thumbnails > div {
@@ -2555,7 +2560,7 @@ a.research {
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
-		background: rgba(255, 255, 255, 0.25);
+		background: rgba(0, 0, 0, 0.25);
 		box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
 		border-radius: 4px;
 		overflow: hidden;
@@ -2571,7 +2576,7 @@ a.research {
 			top: 1em;
 			right: 1em;
 			z-index: 2;
-			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			white-space: nowrap;
 			text-indent: 2.5em;
 			overflow: hidden;
@@ -2595,8 +2600,8 @@ a.research {
 				position: relative;
 				text-indent: 0;
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
-				color: #ffffff !important;
+				box-shadow: inset 0 0 0 1px #000000;
+				color: #000000 !important;
 				width: 2.5em;
 				height: 2.5em;
 				line-height: 2.5em;
@@ -2648,11 +2653,11 @@ a.research {
 	}
 
 		#header h1 {
-			color: rgba(255, 255, 255);
+			color: rgba(0, 0, 0);
 		}
 
         #header h2 {
-            color: rgba(255, 255, 255);
+            color: rgba(0, 0, 0);
         }
 
 		#header .avatar {
@@ -2660,8 +2665,8 @@ a.research {
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
-			border: solid 1px rgba(255, 255, 255, 0.25);
-			background-color: rgba(255, 255, 255, 0.075);
+			border: solid 1px rgba(0,0,0, 0.25);
+			background-color: rgba(0,0,0, 0.075);
 		}
 
 			#header .avatar img {
@@ -2687,7 +2692,7 @@ a.research {
 
 		#footer:before {
 			content: '';
-			border-top: solid 1px rgba(255, 255, 255, 0.25);
+			border-top: solid 1px rgba(0, 0, 0, 1);
 			width: 10em;
 			display: block;
 			margin: 0 auto 3em auto;
