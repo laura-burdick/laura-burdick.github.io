@@ -13,6 +13,7 @@
 
 fa-linkedin:before {
     background-image:url("images/linkedin.png");
+    background-position: center; 
 }
 
 /* Header & Navigation */
