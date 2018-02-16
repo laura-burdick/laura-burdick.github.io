@@ -29,14 +29,14 @@ function processPublications(allText) {
         //Is this year already in the array?
         var found = false;
         for(var j=0; j<categories.length; j++) {
-            if(categories[j].name==data[0]) {
+            if(categories[j].name==publications.category) {
                 found = true;
                 categories[j].publications.push(publication);
                 break;
             }
         }
         if(!found) {
-            var category = {name:data[0], publications:[publication]};
+            var category = {name:publications.category, publications:[publication]};
             categories.push(category);
         }
 
