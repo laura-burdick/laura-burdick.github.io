@@ -22,31 +22,32 @@ function processPublications(allText) {
 
         var publication = {id:i, title:data[1], authors:data[2], publication:data[3], link:data[4], category:data[5], demo:data[6], data:data[7], software:data[8], bibtex:data[9], abstract:data[10]};
 
-	if(!publication.title) {
-	    continue;
-	}
-
-    //Is this year already in the array?
-    var found = false;
-    for(var j=0; j<categories.length; j++) {
-        if(categories[j].name==data[0]) {
-            found = true;
-            categories[j].publications.push(publication);
-            break;
+        if(!publication.title) {
+            continue;
         }
-    }
-    if(!found) {
-        var category = {name:data[0], publications:[publication]};
-        categories.push(category);
-    }
 
-    for(var i=0; i<categories.length; ++i) {
-        $('#publications').append('<h2 class="featurette-heading">' + categories[i].name + '</h2>');
-        for(var j=0; j<categories[i].publications.length; ++j) {
-            publication = categories[i].publications[j];
+        //Is this year already in the array?
+        var found = false;
+        for(var j=0; j<categories.length; j++) {
+            if(categories[j].name==data[0]) {
+                found = true;
+                categories[j].publications.push(publication);
+                break;
+            }
+        }
+        if(!found) {
+            var category = {name:data[0], publications:[publication]};
+            categories.push(category);
+        }
 
-            entry = showPublication(publication,true);
-            $('#publications').append(entry);
+        for(var i=0; i<categories.length; ++i) {
+            $('#publications').append('<h2 class="featurette-heading">' + categories[i].name + '</h2>');
+            for(var j=0; j<categories[i].publications.length; ++j) {
+                publication = categories[i].publications[j];
+
+                entry = showPublication(publication,true);
+                $('#publications').append(entry);
+            }
         }
     }
 }
