@@ -15,6 +15,12 @@ fa-linkedin:before {
     background-image:url("images/linkedin.png");
 }
 
+#authors {
+    font-size: 1.2em;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
 /* Header & Navigation */
 
 #top {
