@@ -43,8 +43,8 @@ fa-linkedin:before {
     margin-left: 5px;
 }
 
-#no_underline {
-    text-decoration: none; !important
+a:hover{
+    text-decoration: none !important;
 }
 
 /* Header & Navigation */
