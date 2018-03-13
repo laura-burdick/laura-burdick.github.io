@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet" type="text/css">	</head>
@@ -60,31 +60,66 @@
                         <hr class="myHR" />
 
                         <h1 id="publications">Publications</h1>
-                        
-                        <p>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Button with data-target
-  </button>
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </div>
-</div>
 
-                        <h2>Factors Influencing the Surprising Instability of Word Embeddings (<a data-toggle="collapse" data-parent="#accordion" href="#3_abstract">abstract</a>)</h2>
+                        <h2>Factors Influencing the Surprising Instability of Word Embeddings</h2>
                         <p id="authors"><u>Laura Wendlandt</u>, Jonathan K. Kummerfeld, Rada Mihalcea
                         </br><i>NAACL-HLT, 2018.</i></p>
-                        <div id="#3_abstract" class="panel-collapse collapse out"><p>This is the abstract.</p></div>
+                        <p>
+                            <a data-toggle="collapse" data-target="#abstract3" aria-expanded="false" aria-controls="abstract3" class="btn btn-sm btn-outline-secondary" role="button">Abstract</a>
+                            <a data-toggle="collapse" data-target="#bibtex3" aria-expanded="false" aria-controls="bibtex3" class="right-button btn btn-sm btn-outline-secondary" role="button">BibTeX</a>
+                        </p>
+                        <div class="collapse" id="abstract3"><p id="abstract"><i>
+                            Despite the recent popularity of word embedding methods, there is only a small body of work exploring the limitations of these representations. In this paper, we consider one aspect of embedding spaces, namely their stability. We show that even relatively high frequency words (100-200 occurrences) are often unstable. We provide empirical evidence for how various factors contribute to the stability of word embeddings, and we analyze the effects of stability on downstream tasks.
+                        </i></p></div>
+                        <div class="collapse" id="bibtex3"><p id="bibtex">
+                            @article{Wendlandt18Surprising,</br>
+                              author = {Wendlandt, L. and J. Kummerfeld and R. Mihalcea},</br>
+                              title = {Factors Influencing the Surprising Instability of Word Embeddings},</br>
+                              journal = {NAACL-HLT},</br>
+                              year = {2018}</br>
+                            }
+                        </p></div>
 
-                        <h2>Multimodal Analysis and Prediction of Latent User Dimensions (<a href="http://web.eecs.umich.edu/~mihalcea/papers/wendlandt.socinfo17.pdf" target="_blank">pdf</a>)</h2>
+                        <h2>Multimodal Analysis and Prediction of Latent User Dimensions</h2>
                         <p id="authors"><u>Laura Wendlandt</u>, Rada Mihalcea, Ryan L. Boyd, James W. Pennebaker.
                         </br><i>SocInfo, 2017.</i></p>
+                        <p>
+                            <a href="http://web.eecs.umich.edu/~mihalcea/papers/wendlandt.socinfo17.pdf" target="_blank" class="btn btn-sm btn-outline-secondary" role="button">PDF</a>
+                            <a data-toggle="collapse" data-target="#abstract2" aria-expanded="false" aria-controls="abstract2" class="right-button btn btn-sm btn-outline-secondary" role="button">Abstract</a>
+                            <a data-toggle="collapse" data-target="#bibtex2" aria-expanded="false" aria-controls="bibtex2" class="right-button btn btn-sm btn-outline-secondary" role="button">BibTeX</a>
+                        </p>
+                        <div class="collapse" id="abstract2"><p id="abstract"><i>
+                            Humans upload over 1.8 billion digital images to the internet each day,  yet the relationship between the images that a person shares with others and his/her psychological characteristics remains poorly understood. In the current research, we analyze the relationship between images, captions, and the latent demographic/psychological dimensions of personality and gender. We consider a wide range of automatically extracted visual and textual features of images/captions that are shared by a large sample of individuals (N ~ 1,350). Using correlational methods, we identify several visual and textual properties that show strong relationships with individual differences between participants. Additionally, we explore the task of predicting user attributes using a multimodal approach that simultaneously leverages images and their captions. Results from these experiments suggest that images alone have significant predictive power and, additionally, multimodal methods outperform both visual features and textual features in isolation when attempting to predict individual differences.
+                        </i></p></div>
+                        <div class="collapse" id="bibtex2"><p id="bibtex">
+                            @inproceedings{Wendlandt17Multimodal,</br>
+                             author = {Wendlandt, L. and R. Mihalcea and R. Boyd and J. Pennebaker},</br>
+                             title = {Multimodal Analysis and Prediction of Latent User Dimensions},</br>
+                             booktitle = {Proceedings of the 9th International Conference on Social Informatics (SocInfo 2017)},</br>
+                             year = {2017},</br>
+                             address = {Oxford, UK}</br>
+                            }
+                        </p></div>
 
-                        <h2>Data Science in Service of Performing Arts: Applying Machine Learning to Predicting Audience Preferences.
-                        (<a href="papers/2016_DataForGood_UMS.pdf" target="_blank">pdf</a>)</h2>
+                        <h2>Data Science in Service of Performing Arts: Applying Machine Learning to Predicting Audience Preferences</h2>
                         <p id="authors">Jacob Abernethy,  Cyrus Anderson,  Chengyu Dai,  John Dryden,  Eric Schwartz,  Wenbo Shen,  Jonathan Stroud, <u>Laura Wendlandt</u>, Sheng Yang, Daniel Zhang.
                         </br><i>Bloomberg Data for Good Exchange, 2016.</i></p>
+                        <p>
+                            <a href="papers/2016_DataForGood_UMS.pdf" target="_blank" class="btn btn-sm btn-outline-secondary" role="button">PDF</a>
+                            <a data-toggle="collapse" data-target="#abstract1" aria-expanded="false" aria-controls="abstract1" class="right-button btn btn-sm btn-outline-secondary" role="button">Abstract</a>
+                            <a data-toggle="collapse" data-target="#bibtex1" aria-expanded="false" aria-controls="bibtex1" class="right-button btn btn-sm btn-outline-secondary" role="button">BibTeX</a>
+                        </p>
+                        <div class="collapse" id="abstract1"><p id="abstract"><i>
+                            Performing arts organizations aim to enrich their communities through the arts. To do this, they strive to match their performance offerings to the taste of those communities. Success relies on understanding audience preference and predicting their behavior. Similar to most e-commerce or digital entertainment firms, arts presenters need to recommend the right performance to the right customer at the right time. As part of the Michigan Data Science Team (MDST), we partnered with the University Musical Society (UMS), a non-profit performing arts presenter housed in the University of Michigan, Ann Arbor. We are providing UMS with analysis and business intelligence, utilizing historical individual-level sales data. We built a recommendation system based on collaborative filtering, gaining insights into the artistic preferences of customers, along with the similarities between performances. To better understand audience behavior, we used statistical methods from customer-base analysis. We characterized customer heterogeneity via segmentation, and we modeled customer cohorts to understand and predict ticket purchasing patterns. Finally, we combined statistical modeling with natural language processing (NLP) to explore the impact of wording in program descriptions. These ongoing efforts provide a platform to launch targeted marketing campaigns, helping UMS carry out its mission by allocating its resources more efficiently. Celebrating its 138th season, UMS is a 2014 recipient of the National Medal of Arts, and it continues to enrich communities by connecting world-renowned artists with diverse audiences, especially students in their formative years. We aim to con tribute to that mission through data science and customer analytics.
+                        </i></p></div>
+                        <div class="collapse" id="bibtex1"><p id="bibtex">
+                            @inproceedings{Abernethy2016Data,</br>
+                             author = {Abernethy, J. and C. Anderson and C. Dai and J. Dryden and E. Schwartz and W. Shen and J. Stroud and L. Wendlandt and S. Yang and D. Zhang},</br>
+                             title = {Data Science in Service of Performing Arts: Applying Machine Learning to Predicting Audience Preferences},</br>
+                             booktitle = {Bloomberg Data for Good Exchange},</br>
+                             year = {2016},</br>
+                            }
+                        </p></div>
 
                         <hr class="myHR" />
 
@@ -125,9 +160,9 @@
 			</div>
 
 		<!-- Scripts -->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<           script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="dist/js/bootstrap.min.js"></script>
 
             <script src="dist/js/bootstrap.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
