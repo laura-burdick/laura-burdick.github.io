@@ -1960,6 +1960,7 @@ a.research {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		text-align: center;
 	}
 
 		.icon:before {
