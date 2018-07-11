@@ -11,6 +11,10 @@
 
 /* Added */
 
+#red {
+	color: red;
+}
+
 fa-linkedin:before {
     background-image:url("images/linkedin.png");
 }
