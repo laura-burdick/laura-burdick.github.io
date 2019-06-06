@@ -26,6 +26,11 @@ fa-linkedin:before {
     margin-bottom: 5px;
 }
 
+#comment {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
 #abstract {
     font-size: 1.2em;
     margin-left: 30px;
@@ -1507,6 +1512,7 @@ a.research {
 	}
 
 	body {
+		background-color: #e6ffe6;
 		background-size: cover;
 		background-position: top center;
 	}
@@ -1595,7 +1601,7 @@ a.research {
     #laura {
         font-size: 3.5em;
         font-family: 'Bilbo Swash Caps', cursive;
-        margin-bottom: 20px;
+		margin-bottom: 10px;
         }
 
 		@media screen and (max-width: 980px) {
