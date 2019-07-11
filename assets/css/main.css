@@ -11,6 +11,18 @@
 
 /* Added */
 
+.my-card-text {
+	font-size: 1.2em;
+	color: #000000;
+	font-weight: 200;
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 #red {
 	color: red;
 }
