@@ -6,3 +6,6 @@ _site
 *.xcf
 workspace.xcworkspace/*
 .DS_Store
+assets/.DS_Store
+images/.DS_Store
+
