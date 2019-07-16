@@ -11,6 +11,11 @@
 
 /* Added */
 
+#outreach-news {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
 .bg-lighter {
 	background: #fafffa !important;
 }
