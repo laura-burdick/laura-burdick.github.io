@@ -11,6 +11,10 @@
 
 /* Added */
 
+.bg-lighter {
+	background: #fafffa !important;
+}
+
 .my-card-text {
 	font-size: 1.2em;
 	color: #000000;
