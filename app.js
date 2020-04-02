@@ -9566,7 +9566,6 @@ parcelRequire = function(e, r, t, n) {
 							codemaster: !1
 						}), e.setState({
 							game: t
-						})
                         }), setTimeout(function() {
                             e.refresh()
                         }, 2e3)
