@@ -9562,22 +9562,6 @@ parcelRequire = function(e, r, t, n) {
                         var t = {
                             game_id: this.props.gameID
                         };
-                        $.ajax({
-                            url: "/game-state",
-                            type: "POST",
-                            data: JSON.stringify(t),
-                            contentType: "application/json; charset=utf-8",
-                            dataType: "json",
-                            success: function(t) {
-                                e.state.game && t.created_at != e.state.game.created_at && e.setState({
-                                    codemaster: !1
-                                }), e.setState({
-                                    game: t
-                                })
-                            }
-                        }), setTimeout(function() {
-                            e.refresh()
-                        }, 2e3)
                     }
                 }, i.prototype.toggleRole = function(e, t) {
                     e.preventDefault(), this.setState({
