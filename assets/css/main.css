@@ -11,6 +11,40 @@
 
 /* Added */
 
+#bookDiv {
+	margin: 10 10 20 10;
+	width: 100%;
+	border: 0 0 10 0;
+	display: inline-block;
+}
+
+.bookImgLeft {
+	width: 15%;
+	float: left;
+}
+
+.bookImgRight {
+	width: 15%;
+	float: right;
+}
+
+.bookDescLeft{
+	padding-right: 2px;
+	float: left;
+}
+
+.bookDescRight{
+	padding-left: 2px;
+	float: right;
+}
+
+.bookDesc {
+	width: 80%;
+	text-justify: left;
+	font-size: 13pt !important;
+	color: black;
+}
+
 #outreach-news {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
